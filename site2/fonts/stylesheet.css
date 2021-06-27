@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Freehand575 BT';
+    src: url('Freehand575BT-RegularB.eot');
+    src: url('Freehand575BT-RegularB.eot?#iefix') format('embedded-opentype'),
+        url('Freehand575BT-RegularB.woff2') format('woff2'),
+        url('Freehand575BT-RegularB.woff') format('woff'),
+        url('Freehand575BT-RegularB.ttf') format('truetype'),
+        url('Freehand575BT-RegularB.svg#Freehand575BT-RegularB') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
