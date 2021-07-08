@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+<meta charset="utf-8">
+    <title>Great companion</title>
+    <link rel="icon" href="img\sunset.png" sizes="32x32">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+  <body>
+<main>
+  <div class="main_topmenu">
+    <div class="container topmenu">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="logo"><img class="logo_img" src="img\sunset.png" alt="" height="50px" width="50px">Great companion</p>
+        </div>
+        <div class="col-md-6">
+          <div class="menubtn">
+            <a class="menutext" href="#">Главная</a>
+          </div>
+          <div class="menubtn">
+            <a class="menutext" href="#">Агентство</a>
+          </div>
+          <div class="menubtn">
+            <a class="menutext" href="#">Туры</a>
+          </div>
+          <div class="menubtn">
+            <a class="menutext" href="#">Отели</a>
+          </div>
+          <div class="menubtn">
+            <a class="menutext" href="#">Галерея</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sm_top">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2 btn_menu">
+          <img src="img\menu.png" alt="" height="50px" width="50px">
+        </div>
+        <div class="col-sm-6 offset-sm-4">
+          <p class="logo_sm"><img class="logo_sm_img" src="img\sunset.png" alt="" height="80px" width="80px">Great companion</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<div class="move">
+  <video autoplay loop muted autoplay playsinline height="800px">
+<source src="files\ParadiseIslandinSumatra-1.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+  </video>
+</div>
+<div class="move_text">
+  <p>Насладитесь ярким, незабываемым<br>путешествием!</p>
+</div>
+<div class="vd">
+
+</div>
+<div class="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 about_header">
+        <p>Немного информации про наше агентство</p>
+      </div>
+
+      <div class="col-md-12 col-xl-7 about_data">
+        <div class="about_data_block">
+          <div id="his" class="about_data_menu color_line" onclick="$history()">
+            <p>История</p>
+          </div>
+          <div id="cho" class="about_data_menu" onclick="$choose()">
+            <p>Почему выбирают именно нас?</p>
+          </div>
+          <div id="ord" class="about_data_menu" onclick="$order()">
+            <p>Наша цель</p>
+          </div>
+        </div>
+
+        <div class="about_data_text">
+          <p class="h">Наше агентство было основано в прошлом году летом. Тогда мы взяли на себя ответственность дарить людям незабываемые эмоции и впечатления. Мы составили множество туров, помимо этого вы можете составить тур самостоятельно и сразу рассчитать его стоимость.</p>
+          <p class="about_data_text_bt">Узнать больше</p>
+        </div>
+
+      </div>
+
+      <div class="col-md-12 col-xl-5 about_img">
+        <img  class="about_img_1" height="180px" width="350px" src="img\about_img_1.jpg" alt="">
+        <img  class="about_img_2" height="180px" width="350px" src="img\about_img_2.jpg" alt="">
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<div class="adv">
+  <div class="parallax-window" data-parallax="scroll" data-image-src="img\bg_1.jpg">
+    <div class="container">
+      <div class="row" id="divadv">
+        <div class="col-md-12">
+          <p class="adv_header">Преимущества</p>
+        </div>
+        <div class="col-xl-3 offset-xl-1 col-md-6 divadv1">
+          <div class="adv_block block1"  onmouseover="$advhover1()">
+            <img src="img\manager.png" alt="" height="100" width="100">
+            <p>Индивидуальный подбор тура</p>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 divadv2">
+          <div class="adv_block block2" onmouseover="$advhover2()">
+            <img src="img\world.png" alt="" height="100" width="100">
+            <p>Огромный выбор</p>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 divadv3">
+          <div class="adv_block block3" onmouseover="$advhover3()">
+            <img src="img\handshake.png" alt="" height="100" width="100">
+            <p>Отличный коллектив</p>
+          </div>
+        </div>
+        <div class="col-xl-3 offset-xl-1 col-md-6 divadv4">
+          <div class="adv_block block4" onmouseover="$advhover4()">
+            <img src="img\chat.png" alt="" height="100" width="100">
+            <p>Постоянная поддержка</p>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 divadv5">
+          <div class="adv_block block5" onmouseover="$advhover5()">
+            <img src="img\contract.png" alt="" height="100" width="100">
+            <p>Тщательное планирование</p>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 divadv6">
+          <div class="adv_block block6" onmouseover="$advhover6()">
+            <img src="img\search.png" alt="" height="100" width="100">
+            <p>Лучшие  цены</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="rew">
+  <div class="container">
+    <div class="row staff">
+
+      <div class="col-md-12 about_header">
+        <p>Сотрудники</p>
+      </div>
+
+      <div class="col-xl-3 col-md-6 staff_block">
+          <img src="img\staff1.png" height="150px" width="150px">
+          <div class="staff_block_in">
+          </div>
+          <p class="staff_block_text" >Наумова Светлана Леонидовна</p>
+          <p class="staff_block_text staff_block_phone">+7 (990) 556 83 92</p>
+          <p class="staff_block_text">Турагент</p>
+      </div>
+
+      <div class="col-xl-3 col-md-6 staff_block">
+        <img src="img\staff2.png" height="150px" width="150px">
+        <div class="staff_block_in">
+        </div>
+        <p class="staff_block_text" >Лобанова Екатерина Сергеевна</p>
+        <p class="staff_block_text staff_block_phone">+7 (945) 756 98 65</p>
+        <p class="staff_block_text">Туристический консультант</p>
+      </div>
+
+      <div class="col-xl-3 col-md-6 staff_block">
+        <img src="img\staff3.png" height="150px" width="150px">
+        <div class="staff_block_in">
+        </div>
+        <p class="staff_block_text" >Герцен Александр Дмитриевич</p>
+        <p class="staff_block_text staff_block_phone">+7 (955) 395 46 39</p>
+        <p class="staff_block_text">Основатель</p>
+      </div>
+
+      <div class="col-xl-3 col-md-6 staff_block">
+        <img src="img\staff4.png" height="150px" width="150px">
+        <div class="staff_block_in">
+        </div>
+        <p class="staff_block_text" >Вереницкий Алексей Сергеевич</p>
+        <p class="staff_block_text staff_block_phone">+7 (936) 347 48 02</p>
+        <p class="staff_block_text">PR-менеджер</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="parallax-window" data-parallax="scroll" data-image-src="img\bg_2.jpg">
+    <div class="about_header">
+      <p class="">Галерея</p>
+    </div>
+  <div class="gallery_block gallery_block_1" onmouseover="$galleryimg(1)" onmouseleave="$galleryimg_leave(1)" onclick="$galleryimg_full(1)">
+    <div class="gallery_block_over">
+      <img class="gallery_block_over_1" src="img\magnifying-glass.png" alt="" height="50px" width="50px">
+    </div>
+  </div>
+  <div class="gallery_block gallery_block_2" onmouseover="$galleryimg(2)" onmouseleave="$galleryimg_leave(2)" onclick="$galleryimg_full(2)">
+    <div class="gallery_block_over">
+      <img class="gallery_block_over_2" src="img\magnifying-glass.png" alt="" height="50px" width="50px">
+    </div>
+  </div>
+  <div class="gallery_block gallery_block_3" onmouseover="$galleryimg(3)" onmouseleave="$galleryimg_leave(3)" onclick="$galleryimg_full(3)">
+    <div class="gallery_block_over">
+      <img class="gallery_block_over_3" src="img\magnifying-glass.png" alt="" height="50px" width="50px">
+    </div>
+  </div>
+  <div class="gallery_block gallery_block_4" onmouseover="$galleryimg(4)" onmouseleave="$galleryimg_leave(4)" onclick="$galleryimg_full(4)">
+    <div class="gallery_block_over">
+      <img class="gallery_block_over_4" src="img\magnifying-glass.png" alt="" height="50px" width="50px">
+    </div>
+  </div>
+  <div class="gallery_block gallery_block_5" onmouseover="$galleryimg(5)" onmouseleave="$galleryimg_leave(5)" onclick="$galleryimg_full(5)">
+    <div class="gallery_block_over">
+      <img class="gallery_block_over_5" src="img\magnifying-glass.png" alt="" height="50px" width="50px">
+    </div>
+  </div>
+  <div class="gallery_block gallery_block_6" onmouseover="$galleryimg(6)" onmouseleave="$galleryimg_leave(6)" onclick="$galleryimg_full(6)">
+    <div class="gallery_block_over">
+      <img class="gallery_block_over_6" src="img\magnifying-glass.png" alt="" height="50px" width="50px">
+    </div>
+  </div>
+  <div class="gallery_block gallery_block_7" onmouseover="$galleryimg(7)" onmouseleave="$galleryimg_leave(7)" onclick="$galleryimg_full(7)">
+    <div class="gallery_block_over">
+      <img class="gallery_block_over_7" src="img\magnifying-glass.png" alt="" height="50px" width="50px">
+    </div>
+  </div>
+
+  <div class="container gallery_sm">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="img\gallery_1.jpg" alt="" height="300px" width="350px">
+      </div>
+      <div class="col-md-6">
+        <img src="img\gallery_2.jpg" alt="" height="300px" width="350px">
+      </div>
+      <div class="col-md-6">
+        <img src="img\gallery_3.jpg" alt="" height="300px" width="350px">
+      </div>
+      <div class="col-md-6">
+        <img src="img\gallery_4.jpg" alt="" height="300px" width="350px">
+      </div>
+      <div class="col-md-6">
+        <img src="img\gallery_5.jpg" alt="" height="300px" width="350px">
+      </div>
+      <div class="col-md-6">
+        <img src="img\gallery_6.jpg" alt="" height="300px" width="350px">
+      </div>
+    </div>
+  </div>
+
+  <div class="">
+  <p class="gallery_bt">Смотреть больше</p>
+  </div>
+  </div>
+</div>
+
+<div class="fullscreen fullscreen_close">
+  <div class="fullscreen_block" onclick="$gallery_close()">
+  </div>
+  <div class="fullscreen_img">
+  </div>
+  <img class="btn_close" src="img\cancel.png" alt="" height="20px" width="20px" onclick="$gallery_close()">
+</div>
+
+<div class="rew">
+  <div class="container">
+    <div class="row">
+      <div class="reviews">
+        <div class="about_header">
+          <p class="">Отзывы</p>
+        </div>
+            <div class="reviews_1">
+              <div class="col-xl-5 offset-xl-2 col-md-12 reviews_first">
+                <div class="reviews_first_stars">
+                  <img src="img\star.png" alt="" height="20px" width="20px">
+                  <img src="img\star.png" alt="" height="20px" width="20px">
+                  <img src="img\star.png" alt="" height="20px" width="20px">
+                  <img src="img\star.png" alt="" height="20px" width="20px">
+                  <img src="img\star.png" alt="" height="20px" width="20px">
+                </div>
+                <p class="reviews_first_text">Очень понравилась поездка с семьёй. Тур был подобран идеально. Мы посетили все самые интересные места, успели посетить и те, у которых богатая история. Очень понравилась необычная еда. Этот отдых запомнится ещё надолго.</p>
+                  <img class="reviews_first_avatar" src="img\rev_1.png" alt="" height="80px" width="80px">
+                <div class="reviews_first_about">
+                  <p class="reviews_first_about_name">Ренеева Ангелина Васильевна</p>
+                  <p class="reviews_first_about_tour">Вкус Китая</p>
+                </div>
+              </div>
+              <div class="reviews_imgs">
+                <img src="img\china_1.jpg" alt="" height="150px" width="150px">
+                <img class="reviews_imgs_p" src="img\china_2.jpg" alt="" height="150px" width="150px">
+                <img src="img\china_3.jpg" alt="" height="150px" width="150px">
+                <img class="reviews_imgs_p" src="img\china_4.jpg" alt="" height="150px" width="150px">
+              </div>
+            </div>
+
+
+        <img class="reviews_arrow_l" src="img\left-arrow_rev.png" alt="" height="20px" width="20px" onclick="$flip_l(1)">
+        <img class="reviews_arrow_r" src="img\right-arrow_rev.png" alt="" height="20px" width="20px" onclick="$flip_r(1)">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="subscription">
+  <div class="parallax-window" data-parallax="scroll" data-image-src="img\bg_3.jpg">
+    <div class="about_header">
+      <p>Заинтересовались?</p>
+    </div>
+    <p class="subscription_text">Найдите подходящее для вас предложение прямо сейчас.</p>
+  <form class="subscription_form" action="index.html" method="post">
+    <p class="subscription_text subscription_xl">С <input class="subscription_form_input" type="date" name="first_day" value="2021-07-07" min="2021-07-07"> до <input class="subscription_form_input" type="date" name="second_day" value="2021-07-08" min="2021-07-08"> куда <select  class="subscription_form_input" name="place" value="">
+      <option value="">Китаи</option>
+      <option value="">Индия</option>
+      <option value="">Мальдивы</option>
+      <option value="">Франция</option>
+    </select> <input class="subscription_form_input subscription_form_input_btn" type="submit" value="Найти"></p>
+
+
+    <div class="subscription_sm">
+      <p class="subscription_text">С <input class="subscription_form_input" type="date" name="first_day" value="2021-07-07" min="2021-07-07"> до <input class="subscription_form_input" type="date" name="second_day" value="2021-07-08" min="2021-07-08"></p>
+      <p class="subscription_text">куда <select  class="subscription_form_input" name="place" value="">
+        <option value="">Китаи</option>
+        <option value="">Индия</option>
+        <option value="">Мальдивы</option>
+        <option value="">Франция</option>
+      </select></p>
+      <p class="subscription_text"><input class="subscription_form_input subscription_form_input_btn" type="submit" value="Найти"></p>
+    </div>
+  </form>
+
+  </div>
+</div>
+
+<div class="end">
+  <div class="end_xl">
+    <div class="end_sub">
+      <img class="end_sub_logo" src="img\sunset.png" alt="" height="90px" width="90px">
+      <p class="end_sub_logo_text">Great companion</p>
+      <p class="end_sub_text">Подпишитесь на рассылку, чтобы не пропустить наши новости и скидки</p>
+      <p class="subscription_text"><input class="subscription_form_input" type="text" name="" value="" placeholder="email"><input   class="subscription_form_input subscription_form_input_btn" type="submit" name="" value="Подписаться"></p>
+    </div>
+    <div class="end_sites">
+      <p class="end_sites_text">Наши соц. сети</p>
+      <div>
+        <img class="end_inst_style" src="img\instagram.png" alt="" height="50px" width="50px" href="#">
+        <img class="end_inst_style" src="img\vk.png" alt="" height="50px" width="50px" href="#">
+        <img class="end_inst_style" src="img\whatsapp.png" alt="" height="50px" width="50px" href="#">
+      </div>
+    </div>
+    <div class="end_inst">
+      <p class="end_inst_text">Instagram</p>
+      <div>
+        <img class="end_inst_style" src="img\traveling_1.jpg" alt="" height="100px" width="100px" href="#">
+        <img class="end_inst_block end_inst_style" src="img\traveling_2.jpg" alt="" height="100px" width="100px" href="#">
+        <br>
+        <img class="end_inst_style" src="img\traveling_3.jpg" alt="" height="100px" width="100px" href="#">
+        <img class="end_inst_block end_inst_style" src="img\traveling_4.jpg" alt="" height="100px" width="100px" href="#">
+      </div>
+    </div>
+  </div>
+
+  <div class="end_sm">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <img class="end_sub_logo" src="img\sunset.png" alt="" height="90px" width="90px">
+          <p class="end_sub_logo_text">Great companion</p>
+        </div>
+        <div class="col-md-12">
+          <p class="end_sub_text">Подпишитесь на рассылку, чтобы не пропустить наши новости и скидки</p>
+        </div>
+        <div class="col-md-12">
+          <input class="subscription_form_input subscription_form_input_sm" type="text" name="" value="" placeholder="email">
+        </div>
+        <div class="col-md-12">
+          <input   class="subscription_form_input subscription_form_input_btn" type="submit" name="" value="Подписаться">
+        </div>
+        <div class="col-md-12">
+          <p class="end_sites_text">Наши соц. сети</p>
+        </div>
+        <div class="col-md-2 offset-md-2">
+          <img src="img\instagram.png" alt="" height="50px" width="50px" href="#">
+        </div>
+        <div class="col-md-2 offset-md-1">
+          <img src="img\vk.png" alt="" height="50px" width="50px" href="#">
+        </div>
+        <div class="col-md-2 offset-md-1">
+          <img src="img\whatsapp.png" alt="" height="50px" width="50px" href="#">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script type="text/javascript" src="js\gallery_img.js"></script>
+<script type="text/javascript" src="js\adv.js"></script>
+<script type="text/javascript" src="js\main.js"></script>
+<script type="text/javascript" src="js\reviews.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="js\parallax.min.js"></script>
+</body>
+
+</html>
