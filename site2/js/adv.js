@@ -36,7 +36,7 @@ function $advout4() {
 
 function $advhover5() {
   let advh5 = document.querySelector('#divadv')
-  advh5.insertAdjacentHTML('afterbegin', '<div class="adv_hover adv5" onmouseleave="$advout5()"><p class="adv_hover_text"><img src="../src/img/check.png" alt="" height="15px" width="15px">Подбор только лучших и недорогих отелей</p><p class="adv_hover_text"><img src="../src/img/check.png" alt="" height="15px" width="15px">Чёткое планирование до мелочеи</p><p class="adv_hover_text"><img src="../src/img/check.png" alt="" height="15px" width="15px">Постоянное информирование вас</p></div>')
+  advh5.insertAdjacentHTML('afterbegin', '<div class="adv_hover adv5" onmouseleave="$advout5()"><p class="adv_hover_text"><img src="../site2/img/check.png" alt="" height="15px" width="15px">Подбор только лучших и недорогих отелей</p><p class="adv_hover_text"><img src="../site2/img/check.png" alt="" height="15px" width="15px">Чёткое планирование до мелочеи</p><p class="adv_hover_text"><img src="../site2/img/check.png" alt="" height="15px" width="15px">Постоянное информирование вас</p></div>')
 }
 function $advout5() {
   let advo5 = document.querySelector('.adv5')
@@ -45,7 +45,7 @@ function $advout5() {
 
 function $advhover6() {
   let advh6 = document.querySelector('#divadv')
-  advh6.insertAdjacentHTML('afterbegin', '<div class="adv_hover adv6" onmouseleave="$advout6()"><p class="adv_hover_text"><img src="../src/img/check.png" alt="" height="15px" width="15px">Предоставляем экономные туры</p><p class="adv_hover_text"><img src="../src/img/check.png" alt="" height="15px" width="15px">Если вас что-то не устроило, мы готовы выплатить компенсацию</p></div>')
+  advh6.insertAdjacentHTML('afterbegin', '<div class="adv_hover adv6" onmouseleave="$advout6()"><p class="adv_hover_text"><img src="../site2/img/check.png" alt="" height="15px" width="15px">Предоставляем экономные туры</p><p class="adv_hover_text"><img src="../site2/img/check.png" alt="" height="15px" width="15px">Если вас что-то не устроило, мы готовы выплатить компенсацию</p></div>')
 }
 function $advout6() {
   let advo6 = document.querySelector('.adv6')
