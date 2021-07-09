@@ -176,6 +176,7 @@
   padding-bottom: 20px;
 }
 .adv_header {
+  display: block;
   font-family: 'Freehand575 BT';
   font-size: 80px;
   color: #555c66;
