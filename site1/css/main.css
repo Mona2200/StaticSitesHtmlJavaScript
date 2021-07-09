@@ -1,15 +1,15 @@
 @font-face {
   font-family: 'English157 BT';
-  src: url('../fonts/English157BT-Regular.eot');
-  src: url('../fonts/English157BT-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/English157BT-Regular.woff2') format('woff2'), url('../fonts/English157BT-Regular.woff') format('woff'), url('../fonts/English157BT-Regular.ttf') format('truetype'), url('../fonts/English157BT-Regular.svg#English157BT-Regular') format('svg');
+  src: url('../site1/fonts/English157BT-Regular.eot');
+  src: url('../site1/fonts/English157BT-Regular.eot?#iefix') format('embedded-opentype'), url('../site1/fonts/English157BT-Regular.woff2') format('woff2'), url('../site1/fonts/English157BT-Regular.woff') format('woff'), url('../site1/fonts/English157BT-Regular.ttf') format('truetype'), url('../site1/fonts/English157BT-Regular.svg#English157BT-Regular') format('svg');
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: 'Century Gothic';
-  src: url('../fonts/CenturyGothic.eot');
-  src: url('../fonts/CenturyGothic.eot?#iefix') format('embedded-opentype'), url('../fonts/CenturyGothic.woff2') format('woff2'), url('../fonts/CenturyGothic.woff') format('woff'), url('../fonts/CenturyGothic.ttf') format('truetype'), url('../fonts/CenturyGothic.svg#CenturyGothic') format('svg');
+  src: url('../site1/fonts/CenturyGothic.eot');
+  src: url('../site1/fonts/CenturyGothic.eot?#iefix') format('embedded-opentype'), url('../site1/fonts/CenturyGothic.woff2') format('woff2'), url('../site1/fonts/CenturyGothic.woff') format('woff'), url('../site1/fonts/CenturyGothic.ttf') format('truetype'), url('../site1/fonts/CenturyGothic.svg#CenturyGothic') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
