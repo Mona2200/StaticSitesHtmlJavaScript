@@ -573,8 +573,7 @@
   }
   .adv {
     font-size: 20px;
-    background: url(../img/bg_1.jpg) 45% 45% no-repeat;
-    background-position: center;
+    background: none;
   }
   .adv1 {
     display: none;
