@@ -217,26 +217,26 @@
 .adv_hover_text img {
   transform: translateY(-2px);
 }
-.adv_1 {
+.adv_f {
   transform: translate(100px, 70px);
 }
-.adv_2 {
+.adv_s {
   transform: translate(385px, 70px);
   padding-top: 38px;
 }
-.adv_3 {
+.adv_t {
   transform: translate(670px, 70px);
   padding-top: 44px;
 }
-.adv_4 {
+.adv_fo {
   transform: translate(100px, 292px);
   padding-top: 13px;
 }
-.adv_5 {
+.adv_fi {
   transform: translate(385px, 292px);
   padding-top: 6px;
 }
-.adv_6 {
+.adv_si {
   transform: translate(670px, 292px);
   padding-top: 45px;
 }
