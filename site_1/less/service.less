@@ -1,0 +1,265 @@
+// colors
+@color-text: #3e3e3e;
+@color-header: #e94854;
+@color-bg: #e9e9e9;
+@white: #ffffff;
+
+// fonts
+@font-face {
+    font-family: 'English157 BT';
+    src: url('../fonts/English157BT-Regular.eot');
+    src: url('../fonts/English157BT-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/English157BT-Regular.woff2') format('woff2'),
+        url('../fonts/English157BT-Regular.woff') format('woff'),
+        url('../fonts/English157BT-Regular.ttf') format('truetype'),
+        url('../fonts/English157BT-Regular.svg#English157BT-Regular') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../fonts/CenturyGothic.eot');
+    src: url('../fonts/CenturyGothic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CenturyGothic.woff2') format('woff2'),
+        url('../fonts/CenturyGothic.woff') format('woff'),
+        url('../fonts/CenturyGothic.ttf') format('truetype'),
+        url('../fonts/CenturyGothic.svg#CenturyGothic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+  font-size: 10px;
+  color: @color-text;
+  text-align: center;
+}
+main {
+  font-family: 'Century Gothic', sans-serif;
+}
+  .logo {
+    margin-left: 0;
+  }
+  h2 {
+    display: inline-block;
+    position: relative;
+    padding-top: 4.5rem;
+    font-size: 2.6rem;
+  }
+  .menu {
+    text-align: center;
+    display: inline-block;
+    transition: all 0.2s;
+    text-decoration: none;
+    width: 100px;
+    color: @color-text;
+    &_3 {
+      width: 130px;
+    }
+    &_mobile {
+      margin-top: 1rem;
+    }
+    &mob {
+      &_logo {
+        display: inline-block;
+        transform: translateX(-18%);
+      }
+      &_text {
+        display: block;
+        font-size: 3.5rem;
+        padding-top: 6rem;
+      }
+      &_close {
+        position: absolute;
+        top: 4%;
+        right: 33%;
+      }
+      display: none;
+      z-index: 9;
+      background-color: @color-bg;
+      position: fixed;
+      padding: 30% 100%;
+      padding-bottom: 130%;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 0;
+    }
+    &::after {
+      text-decoration: none;
+      content: '';
+      display: block;
+      width: 100%;
+      height: 1.5px;
+      transform: scaleX(0);
+      background-color: @color-header;
+      transition: all 0.2s;
+    }
+    &:hover {
+      text-decoration: none;
+      color: @color-header;
+      &::after {
+        transform: scaleX(1);
+      }
+    }
+    &:active {
+      color: @color-header;
+    }
+  }
+  .text_header {
+    &::after {
+      content: '';
+      display: block;
+      width: 20%;
+      height: 0.2rem;
+      margin: 0 auto;
+      transform: translateY(1.5rem);
+      background-color: @color-header;
+      }
+    line-height: 0.8;
+    display: block;
+    margin: 3rem auto;
+    text-align: center;
+    font-family:'English157 BT';
+    font-size: 4rem;
+    font-weight: bold;
+    color: @color-text;
+  }
+
+.service {
+  margin-top: 2rem;
+  &_struct {
+    &_wig {
+      top: 29.5rem;
+      left: 85rem;
+    }
+    &_manicure {
+      padding-top: 6rem;
+      top: 83.5rem;
+      left: 85rem;
+    }
+    &_wax {
+      padding-top: 6rem;
+      top: 137.6rem;
+      left: 85rem;
+    }
+    &_relax {
+      top: 191.3rem;
+      left: 85rem;
+    }
+    &_mask {
+      top: 245.3rem;
+      left: 85rem;
+    }
+    &_piercing {
+      padding-top: 8rem;
+      top: 299.3rem;
+      left: 85rem;
+    }
+    width: 40rem;
+    height: 33.5rem;
+    background-color: @white;
+    position: absolute;
+    display: inline-block;
+    padding: 4rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  &_last {
+    margin-bottom: 5rem;
+  }
+}
+.parallax-mirror {
+  margin-top: 2.5rem;
+  height: 400px;
+  width: 800px;
+}
+.text {
+  &::after {
+    content: '';
+    display: block;
+    width: 31.5rem;
+    height: 1.2px;
+    background-color: @color-text;
+  }
+  &:hover {
+    text-decoration: none;
+    color: @color-header;
+    &::after {
+      background-color: @color-header;
+    }
+  }
+  color: @color-text;
+  text-align: center;
+  font-family: 'Century Gothic';
+  font-size: 2rem;
+  line-height: 2;
+}
+.end {
+  margin: auto 0;
+  display: block;
+  position: absolute;
+  background-color: @white;
+  &_text {
+    font-size: 1.5rem;
+    color: @color-text;
+    text-align: center;
+    font-family: 'Century Gothic';
+  }
+}
+
+
+
+  @media (max-width: 991.98px) {
+    .header {
+      display: none;
+    }
+    .service {
+      &_struct {
+        &_wig {
+          top: 26.8rem;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+        &_manicure {
+          padding-top: 6rem;
+          top: 80.6rem;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+        &_wax {
+          padding-top: 6rem;
+          top: 134.5rem;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+        &_relax {
+          top: 188.8rem;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+        &_mask {
+          top: 242.4rem;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+        &_piercing {
+          padding-top: 8rem;
+          top: 296.5rem;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }
+    }
+    .parallax-mirror {
+      margin-top: 2.5rem;
+      height: 400px;
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .header_mobile {
+      display: none;
+    }
+
+  }
