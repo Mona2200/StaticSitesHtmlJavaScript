@@ -270,7 +270,28 @@
           <p class="servis_header">Подпишитесь на наши новости</p>
           <p class="servis_text">Узнай первым о наших акциях и скидках!</p>
           <input height= "50px" class="in" type="text" name="e-mail" value="" size="40" placeholder="ваш e-mail">
-          <input height= "50px" class="describe_btn" type="submit" value="подписаться">
+          <input height= "50px" class="describe_btn" type="submit" name="send" value="подписаться">
+        
+        <?
+    $myMail = 'alenamelehova13@gmail.com';
+    $tema = 'Письмо с сайта';
+    // Отслеживаем передачу данных методом POST
+    if($_POST['send']){
+        //занносим данные в переменные
+        $email = htmlspecialchars($_POST['email']);
+        $message = ' ';
+        //указываем от кого письмо
+        $header = "From: ".$email;
+        //отправляем письмо
+        $sended = mail($myMail, $tema, $message, $header);
+        //проверяем, если письмо отправилось, выводим сообщение, если нет, тоже сообщаем об этом
+        if($sended){
+            echo "Письмо успешно отправленно!";
+        }else{
+            echo "Письмо не отправилось!";
+        }
+    }
+ ?>
       </form>
     </div>
   </div>
