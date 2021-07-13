@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'English157 BT';
+  font-family: 'English157BT';
   src: url('../fonts/English157BT-Regular.eot');
   src: url('../fonts/English157BT-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/English157BT-Regular.woff2') format('woff2'), url('../fonts/English157BT-Regular.woff') format('woff'), url('../fonts/English157BT-Regular.ttf') format('truetype'), url('../fonts/English157BT-Regular.svg#English157BT-Regular') format('svg');
   font-weight: normal;
@@ -97,7 +97,7 @@ h2 {
   margin-top: 4.5rem;
   margin-bottom: 4.5rem;
   text-align: center;
-  font-family: 'English157 BT';
+  font-family: 'English157BT';
   font-size: 4rem;
   font-weight: bold;
   line-height: 0.8;
@@ -139,7 +139,7 @@ h2 {
   display: block;
   margin: 3rem auto;
   text-align: center;
-  font-family: 'English157 BT';
+  font-family: 'English157BT';
   font-size: 4rem;
   font-weight: bold;
   color: #3e3e3e;
