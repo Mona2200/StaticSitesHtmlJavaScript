@@ -1,0 +1,153 @@
+@font-face {
+  font-family: 'English157 BT';
+  src: url('../fonts/English157BT-Regular.eot');
+  src: url('../fonts/English157BT-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/English157BT-Regular.woff2') format('woff2'), url('../fonts/English157BT-Regular.woff') format('woff'), url('../fonts/English157BT-Regular.ttf') format('truetype'), url('../fonts/English157BT-Regular.svg#English157BT-Regular') format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('../fonts/CenturyGothic.eot');
+  src: url('../fonts/CenturyGothic.eot?#iefix') format('embedded-opentype'), url('../fonts/CenturyGothic.woff2') format('woff2'), url('../fonts/CenturyGothic.woff') format('woff'), url('../fonts/CenturyGothic.ttf') format('truetype'), url('../fonts/CenturyGothic.svg#CenturyGothic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.menu_mobile {
+  margin-top: 1rem;
+}
+.contacts_text {
+  color: #3e3e3e;
+  text-align: center;
+  font-family: 'Century Gothic';
+  font-size: 2rem;
+  margin-bottom: 5rem;
+}
+.contacts_text_addres {
+  margin: 1rem auto;
+  text-align: left;
+}
+.in {
+  padding: 1rem;
+  margin-bottom: 3rem;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 30px;
+  font-size: 2.5rem;
+  border: 3px solid #e9e9e9;
+  font-family: 'Century Gothic';
+  color: #3e3e3e;
+}
+.in:hover {
+  border: 3px solid #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  color: #3e3e3e;
+}
+.in:focus {
+  outline: none;
+  font-size: 2.5rem;
+  color: #3e3e3e;
+}
+.in:default {
+  font-size: 2.5rem;
+}
+.in:enabled {
+  font-size: 2.5rem;
+}
+.in .comm {
+  font-size: 2.5rem;
+  height: 40rem;
+}
+.comm_text {
+  color: #3e3e3e;
+  text-align: center;
+  font-family: 'Century Gothic';
+  font-size: 2rem;
+}
+.spend {
+  margin-top: 1rem;
+}
+.add {
+  cursor: pointer;
+}
+.link_text {
+  color: #3e3e3e;
+  text-align: center;
+  font-family: 'Century Gothic';
+  font-size: 2rem;
+  margin-bottom: 5rem;
+}
+.link_text:hover {
+  color: #e94854;
+  text-decoration: underline;
+}
+.contacts_header {
+  text-align: center;
+  margin: 1rem auto;
+  line-height: 0.8;
+  font-family: 'Century Gothic';
+  font-size: 2rem;
+  font-weight: bold;
+  color: #3e3e3e;
+}
+.addres {
+  margin-bottom: 4rem;
+  border-bottom: 1px solid #e9e9e9;
+}
+.modal_window {
+  position: absolute;
+  display: none;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.modal_window_dark {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #3e3e3e;
+  opacity: .7;
+}
+.modal_window_block {
+  position: absolute;
+  width: 60rem;
+  height: 35rem;
+  background-color: #ffffff;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1rem;
+}
+.modal_window_block_text {
+  font-family: 'Century Gothic';
+  font-size: 2rem;
+  margin-top: 5rem;
+  color: #3e3e3e;
+  text-align: center;
+}
+.modal_window_block_btn {
+  margin-top: 5rem;
+  font-family: 'Century Gothic';
+  display: inline-block;
+  width: auto;
+  background-color: #e9e9e9;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #3e3e3e;
+  font-variant: small-caps;
+  border-radius: 30px;
+  width: 21rem;
+  height: 6rem;
+  padding: 1rem;
+  border: 3px solid #e94854;
+  cursor: pointer;
+}
+.modal_window_block_btn:hover {
+  border: 1px solid #e94854;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  color: #e94854;
+}
