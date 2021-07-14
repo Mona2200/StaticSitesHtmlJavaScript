@@ -313,10 +313,9 @@ $(document).ready(function(){
     const body = document.body;
     body.style.overflowY = 'hidden';
     let scrollTop = window.pageYOffset;
-    let scrollLeft = window.pageXOffset;
     let block = document.querySelector(".modal_window");
     block.style.top = scrollTop+'px';
-    block.style.left = scrollLeft+'px';
+    block.style.left = '0px';
   });
   $('.modal_window_block_btn').on('click', function(event) {
     event.preventDefault();
