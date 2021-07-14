@@ -157,6 +157,7 @@ h2 {
   width: 800px;
 }
 .text {
+  cursor: pointer;
   color: #3e3e3e;
   text-align: center;
   font-family: 'Century Gothic';
