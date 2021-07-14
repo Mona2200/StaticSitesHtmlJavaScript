@@ -355,6 +355,8 @@ h2 {
   .describe_btn {
     border-radius: 30px;
   }
+.modal_window {
+	bottom: 0;
 }
 @media (min-width: 992px) {
   .header_mobile {
