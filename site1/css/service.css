@@ -157,7 +157,6 @@ h2 {
   width: 800px;
 }
 .text {
-  cursor: pointer;
   color: #3e3e3e;
   text-align: center;
   font-family: 'Century Gothic';
@@ -172,6 +171,7 @@ h2 {
   background-color: #3e3e3e;
 }
 .text:hover {
+  cursor: pointer;
   text-decoration: none;
   color: #e94854;
 }
