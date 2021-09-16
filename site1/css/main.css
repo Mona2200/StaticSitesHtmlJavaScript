@@ -322,6 +322,26 @@ h2 {
   background-color: #ffffff;
   color: #e94854;
 }
+@media (min-width: 992px) {
+  .header_mobile {
+    display: none;
+  }
+  .slider_mobile {
+    display: none;
+  }
+  .main1 {
+    padding: 8rem;
+    background: url(../img/main_1.jpg) 40% 30% no-repeat;
+  }
+  .main2 {
+    padding: 8rem;
+    background: url(../img/main_2.jpg) 30% 30% no-repeat;
+  }
+  .main3 {
+    padding: 8rem;
+    background: url(../img/main_3.jpg) 20% 30% no-repeat;
+  }
+}
 @media (max-width: 991.99999px) {
   .reviews {
     margin-top: 50px;
@@ -358,23 +378,4 @@ h2 {
 .modal_window {
 	bottom: 0;
 }
-@media (min-width: 992px) {
-  .header_mobile {
-    display: none;
-  }
-  .slider_mobile {
-    display: none;
-  }
-  .main1 {
-    padding: 8rem;
-    background: url(../img/main_1.jpg) 40% 30% no-repeat;
-  }
-  .main2 {
-    padding: 8rem;
-    background: url(../img/main_2.jpg) 30% 30% no-repeat;
-  }
-  .main3 {
-    padding: 8rem;
-    background: url(../img/main_3.jpg) 20% 30% no-repeat;
-  }
-}
+
